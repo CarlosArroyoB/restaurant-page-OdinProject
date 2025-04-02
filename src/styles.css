@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+    padding: 2em;
+    width: 100em;
+    border-bottom: 1px solid black;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: 4em;
+    margin:0;
+    padding: 0.5em;
+}
+img{
+    height: 20em;
+    width: 25em;
+    border-radius: 3em;
+}
+.beverage-section, .sides-section, .main-dishes-section {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    margin-bottom: 2em; /* Espaciado entre secciones */
+}
+.card {
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    width: 50em;
+    padding: 1em; 
+    gap: 1em; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #dbcccc; 
+    margin-top: 1em;
+}
+.homeDescription{
+    width: 50em;
+    font-size: 1.3em;
+}
